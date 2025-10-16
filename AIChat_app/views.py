@@ -6,7 +6,7 @@ import json
 from openai import OpenAI
 
 # 初始化 DeepSeek 客户端
-client = OpenAI(api_key="sk-0eda12ea690b402b9f6e7a702504280d", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="", base_url="https://api.deepseek.com")
 
 
 @csrf_exempt
